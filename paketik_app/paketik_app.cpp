@@ -7,7 +7,11 @@ int main()
 {
     std::cout << "Why do I exist?\n";
     std::cout << "Just to suffer" << std::endl;
-
+    char* opinion = new char[128];
+    std::cout << "What's wrong with this app? Tell us! Feedback helps us to get better!\nYour comment: " << std::flush;
+    std::cin >> opinion;
+    delete opinion;
+    std::cout << "Thanks for your support!" << std::endl;
     system("pause");
 }
 
