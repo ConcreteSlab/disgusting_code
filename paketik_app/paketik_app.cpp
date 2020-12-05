@@ -11,7 +11,7 @@ int main()
     std::cout << "What's wrong with this app? Tell us! Feedback helps us to get better!\nYour comment: " << std::flush;
     std::cin >> opinion;
     delete opinion;
-    std::cout << "Thanks for your support!" << std::endl;
+    std::cout << "Thanks for your support!\n>pooq" << std::endl;
     system("pause");
 }
 
