@@ -6,6 +6,7 @@
 int main()
 {
     std::cout << "Why do I exist?\n";
+    std::cout << "Just to suffer" << std::endl;
 
     system("pause");
 }
